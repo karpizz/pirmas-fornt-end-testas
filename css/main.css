@@ -1,14 +1,26 @@
 .container {
+    display: inline-block;
     background-color: red;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
     margin-right: calc((100% - 800px) / 2);
+    border-radius: 400px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 200px;
+}
+
+.container h1 {
+    color: darkgreen;
+    font-size: 55px;
 }
 
 .container p {
+    display: inline-block;
     font-size: 33px;
-    font-weight: 300;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     color: chartreuse;
+    text-decoration: underline;
+    background-color: darkkhaki;
 }
-
